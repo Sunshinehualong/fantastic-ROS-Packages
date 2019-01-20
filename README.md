@@ -13,8 +13,15 @@
 - [libuvc_camera](https://github.com/ros-drivers/libuvc_ros)
 >libuvc_camera is a ROS driver that supports webcams and other UVC-standards-compliant video devices. It's a cross-platform replacement for uvc_camera, a Linux-only webcam driver. 使用参考 http://wiki.ros.org/libuvc_camera
 
+
 - [virtual keyboard joystick](https://github.com/ethz-asl/rotors_simulator/wiki/Setup-virtual-keyboard-joystick)
 使用键盘模拟 遥控的软件包
+
+
+- [ps3joy 摇杆手柄驱动](http://wiki.ros.org/ps3joy)
+>Playstation 3 SIXAXIS or DUAL SHOCK 3 joystick driver. Driver for the Sony PlayStation 3 SIXAXIS or DUAL SHOCK 3 joysticks. In its current state, this driver is not compatible with the use of other Bluetooth HID devices. The driver listens for a connection on the HID ports, starts the joystick streaming data, and passes the data to the Linux uinput device so that it shows up as a normal joystick.
+
+
 
 
 ## 通信类
@@ -67,10 +74,18 @@ rosrun rviz rviz   ## 订阅map  /map话题
 - [px4 Avoidance  ](https://github.com/PX4/avoidance)
 >based-on px4 UAV Obstacle Detection and Avoidance
 
+
 - [Autoware Open-Source To Self-Driving](https://github.com/CPFL/Autoware)
 >Autoware is the world's first "all-in-one" open-source software for self-driving vehicles. The capabilities of Autoware are primarily well-suited for urban cities, but highways, freeways, mesomountaineous regions, and geofenced areas can be also covered. The code base of Autoware is protected by the BSD License. Please use it at your own discretion. For safe use, we provide a ROSBAG-based simulation environment for those who do not own real autonomous vehicles. If you plan to use Autoware with real autonomous vehicles, please formulate safety measures and assessment of risk before field testing
 > https://www.autoware.ai/
 > https://blog.csdn.net/zhangrelay/article/details/71750863
+
+
+
+-[hector_slam ](http://wiki.ros.org/hector_slam)
+>hector_mapping The SLAM node.
+>hector_geotiff Saving of map and robot trajectory to geotiff images files.
+>hector_trajectory_server Saving of tf based trajectories.
 
 
 
