@@ -14,6 +14,11 @@
 >libuvc_camera is a ROS driver that supports webcams and other UVC-standards-compliant video devices. It's a cross-platform replacement for uvc_camera, a Linux-only webcam driver. 使用参考 http://wiki.ros.org/libuvc_camera
 
 
+- [GSCam](https://github.com/ros-drivers/gscam)
+>This is a ROS package originally developed by the Brown Robotics Lab for broadcasting any GStreamer-based video stream via the standard ROS Camera API. This fork has several fixes incorporated into it to make it broadcast correct sensor_msgs/Image messages with proper frames and timestamps. It also allows for more ROS-like configuration and more control over the GStreamer interface.
+
+
+
 - [virtual keyboard joystick](https://github.com/ethz-asl/rotors_simulator/wiki/Setup-virtual-keyboard-joystick)
 使用键盘模拟 遥控的软件包
 
@@ -26,6 +31,14 @@
 
 ## 通信类
 
+- [mavlink](https://github.com/mavlink/mavlink)
+>MAVLink -- Micro Air Vehicle Message Marshalling Library. The current protocol version is v2
+
+
+- [mavros](https://github.com/mavlink/mavros)
+>MAVLink to ROS gateway with proxy for Ground Control Station
+
+
 
 - [mavros_offboard_control](https://github.com/raaslab/mavros_offboard_control)
 >基于mavros包的一个上层应用接口，可以直接给它设定航点，也可以 使用上下左右前后的命令控制无人机
@@ -34,6 +47,9 @@
 >Route mavlink packets between endpoints. 
 
 >The usual configuration is to have one "master" endpoint that is the flight stack (either on UART or UDP) and other components that can be on UDP or TCP endpoints. This is not strictly required and other configurations are possible: mavlink-router mainly routes mavlink packets from on endpoint without differentiating what they are.
+
+
+
 
 ## 算法类
 
@@ -57,6 +73,14 @@ rosrun rviz rviz   ## 订阅map  /map话题
 - [PX4 Gazebo Simulation](http://dev.px4.io/en/simulation/gazebo.html)
 >Pixhawk飞控在gazebo中的软件仿真和硬件仿真
 
+
+- [sitl_gazebo](https://github.com/PX4/sitl_gazebo)
+> px4 的 software in the loop of gazebo
+
+- [hector_quadrotor](https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor)
+>hector quadrotor 是德国老牌理工学校Technische Universität Darmstadt大学开发的ros包， 可以用于用于多旋翼的建模，控制和仿真
+
+
 - [RotorS a MAV gazebo simulator ](https://github.com/ethz-asl/rotors_simulator)
 >There are simulated sensors coming with the simulator such as an IMU, a generic odometry sensor, and the **VI-Sensor**, which can be mounted on the multirotor.
 
@@ -64,6 +88,10 @@ rosrun rviz rviz   ## 订阅map  /map话题
 >Launchers for Gazebo simulation of the TurtleBot
 
 - [gazebo 模型下载](https://bitbucket.org/osrf/gazebo_models/src/9533d55593096e7ebdfb539e99d2bf9cb1bff347?at=default)
+
+
+- [ ROSflight firmware](https://github.com/rosflight/rosflight)
+>This repository contains the ROS stack for interfacing with an autopilot running the ROSflight firmware. For more information on the ROSflight autopilot firmware stack, visit http://rosflight.org.
 
 
 
@@ -75,7 +103,8 @@ rosrun rviz rviz   ## 订阅map  /map话题
 >[DJI Onboard SDK ROS Development](https://developer.dji.com/onboard-sdk/documentation/github-platform-docs/ROS/README.html)
 >The DJI Onboard SDK allows you to connect your own Onboard Computer to a supported DJI vehicle or flight controller using a serial port (TTL UART). (Onboard Computer的形式可以时TX2/STM32 ……)
 
-
+- [ZED SDK && ZED-ros-wrapper](https://github.com/stereolabs/zed-ros-wrapper)
+>This package lets you use the ZED stereo camera with ROS. It outputs the camera left and right images, depth map, point cloud, odometry information and supports the use of multiple ZED cameras.
 
 
 - [ROS Navigation ](https://github.com/ros-planning/navigation)
