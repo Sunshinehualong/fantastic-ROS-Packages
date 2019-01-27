@@ -94,3 +94,8 @@ rosrun rviz rviz   ## 订阅map  /map话题
 - http://rosrobots.com/
 > Here are the few latest technologies that are discussed on this book
 > Self Driving Car, VR, DeepLearning, Autonomous Mobile Robots, 3D Object recognition 
+
+## ROS2.0
+
+- [eProsima Fast RTPS Documentation](https://eprosima-fast-rtps.readthedocs.io/en/latest/)
+>RTPS as a tool to implement DDS 
