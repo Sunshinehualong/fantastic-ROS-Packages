@@ -66,6 +66,18 @@ rosrun rviz rviz   ## 订阅map  /map话题
 - [gazebo 模型下载](https://bitbucket.org/osrf/gazebo_models/src/9533d55593096e7ebdfb539e99d2bf9cb1bff347?at=default)
 
 
+
+- DJI Onboard SDK (OSDK) && ROS SDK
+
+>[DJI Onboard SDK (OSDK)](https://github.com/dji-sdk/Onboard-SDK)
+>[DJI Onboard SDK ROS](https://github.com/dji-sdk/Onboard-SDK-ROS)
+[DJI Onboard SDK Development](https://developer.dji.com/onboard-sdk/documentation/sample-doc/sample-setup.html#ros-oes)
+>[DJI Onboard SDK ROS Development](https://developer.dji.com/onboard-sdk/documentation/github-platform-docs/ROS/README.html)
+>The DJI Onboard SDK allows you to connect your own Onboard Computer to a supported DJI vehicle or flight controller using a serial port (TTL UART). (Onboard Computer的形式可以时TX2/STM32 ……)
+
+
+
+
 - [ROS Navigation ](https://github.com/ros-planning/navigation)
 > A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
 
