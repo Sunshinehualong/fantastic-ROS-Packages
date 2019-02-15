@@ -81,6 +81,9 @@ rosrun rviz rviz   ## 订阅map  /map话题
 - [hector_quadrotor](https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor)
 >hector quadrotor 是德国老牌理工学校Technische Universität Darmstadt大学开发的ros包， 可以用于用于多旋翼的建模，控制和仿真
 
+- [ardrone_gazebo 四旋翼gazebo室内仿真](https://github.com/vislab-tecnico-lisboa/ardrone_gazebo)
+>Gazebo simulator test environment for the Parrot ArDrone. The world is a simulated version of the ISR 7th floor. The ArDrone model is based on the implementation of a gazebo simulator for the Ardrone 2.0 written by Hongrong Huang and Juergen Sturm of the Computer Vision Group at the Technical University of Munich (http://wiki.ros.org/tum_simulator).
+
 
 - [RotorS a MAV gazebo simulator ](https://github.com/ethz-asl/rotors_simulator)
 >There are simulated sensors coming with the simulator such as an IMU, a generic odometry sensor, and the **VI-Sensor**, which can be mounted on the multirotor.
