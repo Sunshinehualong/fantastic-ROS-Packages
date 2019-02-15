@@ -27,7 +27,8 @@
 >Playstation 3 SIXAXIS or DUAL SHOCK 3 joystick driver. Driver for the Sony PlayStation 3 SIXAXIS or DUAL SHOCK 3 joysticks. In its current state, this driver is not compatible with the use of other Bluetooth HID devices. The driver listens for a connection on the HID ports, starts the joystick streaming data, and passes the data to the Linux uinput device so that it shows up as a normal joystick.
 
 
-
+- [StereoCalibration  双目摄像头内参校准](http://wiki.ros.org/camera_calibration)
+[双目摄像头校准](http://wiki.ros.org/action/fullsearch/camera_calibration/Tutorials/StereoCalibration?action=fullsearch&context=180&value=linkto%3A%22camera_calibration%2FTutorials%2FStereoCalibration%22)
 
 ## 通信类
 
