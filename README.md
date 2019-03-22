@@ -133,7 +133,10 @@ rosrun rviz rviz   ## 订阅map  /map话题
 >hector_trajectory_server Saving of tf based trajectories.
 
 - 开源机器人项目 HANDS FREE  
-https://github.com/LvZhenH/HANDS-FREE.github.io
+https://github.com/LvZhenH/HANDS-FREE.github.io  
+
+- MIT开源的自主固定翼项目  
+https://github.com/andybarry/flight  
 
 ## book
 
