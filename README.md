@@ -35,6 +35,8 @@
 - [mavlink](https://github.com/mavlink/mavlink)
 >MAVLink -- Micro Air Vehicle Message Marshalling Library. The current protocol version is v2
 
+- [ESP8266 WiFi Access Point and MAVLink Bridge](https://github.com/mzahana/mavesp8266)
+
 
 - [mavros](https://github.com/mavlink/mavros)
 >MAVLink to ROS gateway with proxy for Ground Control Station
@@ -143,6 +145,11 @@ https://github.com/andybarry/flight
 - http://rosrobots.com/
 > Here are the few latest technologies that are discussed on this book
 > Self Driving Car, VR, DeepLearning, Autonomous Mobile Robots, 3D Object recognition 
+
+
+- Learning ROS for Robotics Programming - Second Edition  
+https://github.com/AaronMR/Learning_ROS_for_Robotics_Programming_2nd_edition
+
 
 ## ROS2.0
 
