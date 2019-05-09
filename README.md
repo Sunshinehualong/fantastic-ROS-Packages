@@ -4,6 +4,12 @@
 ## [ROS device drivers](https://github.com/ros-drivers)
 >包含了许多ros的驱动
 
+## [ROS Perception](https://github.com/ros-perception)
+>place where standard perception stuff is maintained  
+包含image_transport_plugins perception_pcl pointcloud_to_laserscan  depthimage_to_laserscan  
+opencv_apps  sparse_bundle_adjustment openslam_gmapping 等等吧
+
+
 - []()
 
 ## 驱动类
