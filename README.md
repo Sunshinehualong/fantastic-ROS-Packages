@@ -152,6 +152,13 @@ https://github.com/andybarry/flight
 > Here are the few latest technologies that are discussed on this book
 > Self Driving Car, VR, DeepLearning, Autonomous Mobile Robots, 3D Object recognition 
 
+### [ROS机器人开发实践 &code](https://github.com/huchunxu/ros_exploring)
+> ROS基础 ROS常用组件  
+> ROS机器人仿真   机器人SLAM与自主导航  
+> ROS机器视觉与机器语音 机器学习  
+> ROS进阶与ROS2.0  
+**[古月居](http://www.guyuehome.com/)**
+
 
 - Learning ROS for Robotics Programming - Second Edition  
 https://github.com/AaronMR/Learning_ROS_for_Robotics_Programming_2nd_edition
