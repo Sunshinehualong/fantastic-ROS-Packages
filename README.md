@@ -10,6 +10,9 @@
 opencv_apps  sparse_bundle_adjustment openslam_gmapping 等等吧
 
 
+- [ROS Navigation ](https://github.com/ros-planning/navigation)
+> A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
+
 - []()
 
 ## 驱动类
@@ -119,8 +122,7 @@ rosrun rviz rviz   ## 订阅map  /map话题
 >This package lets you use the ZED stereo camera with ROS. It outputs the camera left and right images, depth map, point cloud, odometry information and supports the use of multiple ZED cameras.
 
 
-- [ROS Navigation ](https://github.com/ros-planning/navigation)
-> A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
+
 
 ## 优秀的算法package
 
