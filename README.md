@@ -14,6 +14,9 @@ opencv_apps  sparse_bundle_adjustment openslam_gmapping 等等吧
 > A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
 
 - []()
+- [hector_exploration_planner](http://wiki.ros.org/hector_exploration_planner)
+>hector_exploration_planner is a planner that can both plan paths to goal points and generate goals to explore unknown environments
+
 
 ## 驱动类
 
