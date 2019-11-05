@@ -13,6 +13,10 @@ opencv_apps  sparse_bundle_adjustment openslam_gmapping 等等吧
 ## [ROS Navigation ](https://github.com/ros-planning/navigation)
 > A 2D navigation stack that takes in information from odometry, sensor streams, and a goal pose and outputs safe velocity commands that are sent to a mobile base.
 
+## [ros image pipeline](http://wiki.ros.org/depth_image_proc?distro=melodic)
+包含: camera_calibration | depth_image_proc | image_proc | image_publisher | image_rotate | image_view | stereo_image_proc
+常用的ros　image 处理
+
 - []()
 - [hector_exploration_planner](http://wiki.ros.org/hector_exploration_planner)
 >hector_exploration_planner is a planner that can both plan paths to goal points and generate goals to explore unknown environments
